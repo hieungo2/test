@@ -15,9 +15,9 @@ int main()
         cin >> nGuess;
 
         if (nSecret < nGuess)
-            cout << "the secret number is lower" << endl;
+            cout << "the secret number is lower: " << endl;
         else if (nSecret > nGuess)
-            cout << "the secret number is higher" << endl;
+            cout << "the secret number is higher: " << endl;
     
     } 
     while (nSecret != nGuess);
